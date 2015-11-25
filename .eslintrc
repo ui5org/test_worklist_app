@@ -4,7 +4,9 @@
 	},
 	"globals": {
 		"sap": true,
-		"jQuery": true
+		"jQuery": true,
+		"QUnit": true,
+		"sinon": true
 	},
 	"rules": {
 		"block-scoped-var": 1,
