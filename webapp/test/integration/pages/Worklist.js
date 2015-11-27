@@ -79,14 +79,7 @@ sap.ui.define([
 						return this.waitFor(createWaitForItemAtPosition({
 							position : iPosition,
 							success : function (oTableItem) {
-								var oBindingContext = oTableItem.getBindingContext();
-
-								// Don't remember objects just strings since IE will not allow accessing objects of destroyed frames
-								this.getContext().currentItem = {
-									bindingPath: oBindingContext.getPath(),
-									id: oBindingContext.getProperty("ObjectID"),
-									name: oBindingContext.getProperty("Name")
-								};
+								this.getContext().currentItem = oTableItem;
 							}
 						}));
 					},

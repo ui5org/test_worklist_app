@@ -1,10 +1,10 @@
 sap.ui.define([
 		"sap/ui/base/Object",
 		"sap/m/MessageBox"
-	], function (UI5Object, MessageBox) {
+	], function (Object, MessageBox) {
 		"use strict";
 
-		return UI5Object.extend("sap.ui.demo.worklist.controller.ErrorHandler", {
+		return Object.extend("sap.ui.demo.worklist.controller.ErrorHandler", {
 
 			/**
 			 * Handles application errors by automatically attaching to the model events and displaying errors when needed.
