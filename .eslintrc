@@ -109,7 +109,6 @@
 		"no-nested-ternary": 2,
 		"no-new-object": 2,
 		"no-spaced-func": 2,
-		"quote-props": [2, "as-needed", { "keywords": true, "unnecessary": false }],
 		"semi-spacing": [1, {"before": false, "after": true}],
 		"semi": 2,
 		"space-after-keywords": [2, "always"],
